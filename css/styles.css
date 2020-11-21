@@ -1,0 +1,163 @@
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+/* HEADER STYLES*/
+
+.heading {
+  background-color: #1c2e4a;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+/* BODY STYLES*/
+
+.sign_up {
+ text-align: center;
+ border-bottom: solid 3px black;   
+}
+
+.sign_up p {
+  word-wrap: break-word;
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  color: gray;
+  font-size: 1.1em;
+}
+
+/* FORM STYLES*/
+
+form {
+  /* Center the form on the page */
+  margin: 10px auto;
+  padding: 10px 20px;
+  border-top: solid 2px black;
+}
+
+.form_line {
+  border: solid 1px black;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+  background: #f3f3f3;
+  border: solid 1px #f3f3f3;
+  border-radius: 5px;
+  font-size: 1em;
+  height: auto;
+  margin: 0;
+  padding: 15px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  text-align:left;
+  margin-bottom: 10px;
+  color: grey;
+}
+
+.inline {
+  display: inline-block;
+}
+
+legend {
+  text-align: left;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding-top: 30px
+}
+
+fieldset {
+  border: none;
+}
+
+.form_p {
+  color: grey;
+  font-size: 1.1em;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  margin: 0 4px 8px 0;
+}
+
+
+button {
+  display: block;
+  width: 100%;
+  height: 50px;
+  font-size: 1.2em;
+  border-radius: 5px;
+  border: none;
+  background-color: #00ad96;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  font-style: italic;
+  color: grey;
+  padding-bottom: 30px;
+}
+
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+/* 768px or Wider */
+
+@media screen and (min-width: 768px) {
+
+  .sign_up,
+  form {
+    max-width: 480px;
+  }
+
+  .sign_up {
+    margin: 0 auto;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
